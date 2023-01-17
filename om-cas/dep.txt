@@ -1,0 +1,257 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< uy.com.antel.om:om-cas >-----------------------
+[INFO] Building om-cas 5.0.0-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ om-cas ---
+[INFO] uy.com.antel.om:om-cas:war:5.0.0-SNAPSHOT
+[INFO] +- org.apereo.cas:cas-server-support-generic:jar:5.3.16:compile
+[INFO] |  +- org.apache.logging.log4j:log4j-api:jar:2.12.1:compile
+[INFO] |  +- org.apache.logging.log4j:log4j-core:jar:2.12.1:compile
+[INFO] |  +- org.apache.logging.log4j:log4j-jcl:jar:2.12.1:compile
+[INFO] |  +- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.12.1:compile
+[INFO] |  +- org.apache.logging.log4j:log4j-web:jar:2.12.1:compile
+[INFO] |  +- org.slf4j:slf4j-api:jar:1.7.13:compile
+[INFO] |  +- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+[INFO] |  +- com.lmax:disruptor:jar:3.4.2:compile
+[INFO] |  +- com.google.guava:guava:jar:25.0-jre:compile
+[INFO] |  |  +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+[INFO] |  |  +- org.checkerframework:checker-compat-qual:jar:2.0.0:compile
+[INFO] |  |  +- com.google.errorprone:error_prone_annotations:jar:2.1.3:compile
+[INFO] |  |  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+[INFO] |  |  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
+[INFO] |  +- org.reflections:reflections:jar:0.9.11:compile
+[INFO] |  +- org.javassist:javassist:jar:3.22.0-GA:compile
+[INFO] |  +- org.springmodules:spring-modules-cache:jar:0.8:compile
+[INFO] |  |  +- commons-attributes:commons-attributes-api:jar:2.1:compile
+[INFO] |  |  |  \- qdox:qdox:jar:1.5:compile
+[INFO] |  |  +- commons-attributes:commons-attributes-compiler:jar:2.1:compile
+[INFO] |  |  +- concurrent:concurrent:jar:1.3.4:compile
+[INFO] |  |  +- cglib:cglib-nodep:jar:2.1_3:compile
+[INFO] |  |  +- geronimo-spec:geronimo-spec-jta:jar:1.0.1B-rc4:compile
+[INFO] |  |  +- opensymphony:oscache:jar:2.1.1:compile
+[INFO] |  |  \- oro:oro:jar:2.0.8:compile
+[INFO] |  +- commons-io:commons-io:jar:2.6:compile
+[INFO] |  +- org.apache.commons:commons-text:jar:1.3:compile
+[INFO] |  +- org.apache.commons:commons-pool2:jar:2.5.0:compile
+[INFO] |  +- commons-cli:commons-cli:jar:1.4:compile
+[INFO] |  +- commons-beanutils:commons-beanutils:jar:1.9.3:compile
+[INFO] |  +- commons-logging:commons-logging:jar:1.2:compile
+[INFO] |  +- org.apache.commons:commons-configuration2:jar:2.2:compile
+[INFO] |  +- commons-validator:commons-validator:jar:1.6:compile
+[INFO] |  +- commons-codec:commons-codec:jar:1.11:compile
+[INFO] |  +- commons-jexl:commons-jexl:jar:1.1:compile
+[INFO] |  +- org.apache.commons:commons-lang3:jar:3.7:compile
+[INFO] |  +- commons-lang:commons-lang:jar:2.6:compile
+[INFO] |  +- org.jooq:jool:jar:0.9.12:compile
+[INFO] |  +- commons-collections:commons-collections:jar:3.2.2:compile
+[INFO] |  +- org.apache.commons:commons-collections4:jar:4.1:compile
+[INFO] |  +- joda-time:joda-time:jar:2.9.9:compile
+[INFO] |  +- org.apereo.inspektr:inspektr-audit:jar:1.8.4.GA:compile
+[INFO] |  |  +- org.apereo.inspektr:inspektr-common:jar:1.8.4.GA:compile
+[INFO] |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.3:compile
+[INFO] |  +- org.apereo.inspektr:inspektr-support-spring:jar:1.8.4.GA:compile
+[INFO] |  |  \- org.apereo.inspektr:inspektr-error:jar:1.8.4.GA:compile
+[INFO] |  +- org.apereo.service.persondir:person-directory-impl:jar:1.8.9:compile
+[INFO] |  |  +- aopalliance:aopalliance:jar:1.0:compile
+[INFO] |  |  \- org.apereo.service.persondir:person-directory-api:jar:1.8.9:compile
+[INFO] |  +- org.springframework.shell:spring-shell:jar:1.2.0.RELEASE:compile
+[INFO] |  +- org.springframework:spring-aop:jar:4.3.25.RELEASE:compile
+[INFO] |  +- org.springframework:spring-beans:jar:4.3.25.RELEASE:compile
+[INFO] |  +- org.springframework.webflow:spring-binding:jar:2.5.0.RELEASE:compile
+[INFO] |  +- org.springframework:spring-context:jar:4.3.25.RELEASE:compile
+[INFO] |  +- org.springframework:spring-context-support:jar:4.3.25.RELEASE:compile
+[INFO] |  +- org.springframework:spring-core:jar:4.3.25.RELEASE:compile
+[INFO] |  +- org.springframework.data:spring-data-mongodb:jar:1.10.15.RELEASE:compile
+[INFO] |  +- org.springframework.data:spring-data-commons:jar:1.13.15.RELEASE:compile
+[INFO] |  +- org.springframework:spring-jms:jar:4.3.25.RELEASE:compile
+[INFO] |  +- org.springframework:spring-messaging:jar:4.3.25.RELEASE:compile
+[INFO] |  +- org.springframework:spring-expression:jar:4.3.25.RELEASE:compile
+[INFO] |  +- org.springframework:spring-jdbc:jar:4.3.25.RELEASE:compile
+[INFO] |  +- org.springframework:spring-orm:jar:4.3.25.RELEASE:compile
+[INFO] |  +- org.springframework:spring-tx:jar:4.3.25.RELEASE:compile
+[INFO] |  +- org.springframework:spring-web:jar:4.3.25.RELEASE:compile
+[INFO] |  +- org.springframework.webflow:spring-webflow:jar:2.5.0.RELEASE:compile
+[INFO] |  +- org.apereo:spring-webflow-client-repo:jar:1.0.3:compile
+[INFO] |  +- org.springframework:spring-webmvc:jar:4.3.25.RELEASE:compile
+[INFO] |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile
+[INFO] |  +- com.fasterxml.jackson.datatype:jackson-datatype-guava:jar:2.9.9:compile
+[INFO] |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.9:compile
+[INFO] |  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.9.9:compile
+[INFO] |  |  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.9.9:compile
+[INFO] |  |  \- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.9.9:compile
+[INFO] |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.9:compile
+[INFO] |  +- org.hjson:hjson:jar:3.0.0:compile
+[INFO] |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.9:compile
+[INFO] |  +- org.apache.httpcomponents:httpclient:jar:4.5.6:compile
+[INFO] |  +- org.apache.httpcomponents:httpcore:jar:4.4.9:compile
+[INFO] |  +- com.github.axet:wget:jar:1.4.9:compile
+[INFO] |  |  +- com.github.axet:threads:jar:0.0.14:compile
+[INFO] |  |  \- org.jsoup:jsoup:jar:1.10.1:compile
+[INFO] |  +- org.quartz-scheduler:quartz:jar:2.3.0:compile
+[INFO] |  |  \- com.mchange:mchange-commons-java:jar:0.2.11:compile
+[INFO] |  +- org.hibernate:hibernate-core:jar:5.2.18.Final:compile
+[INFO] |  |  +- org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:compile
+[INFO] |  |  +- antlr:antlr:jar:2.7.7:compile
+[INFO] |  |  +- org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.1.Final:compile
+[INFO] |  |  +- org.jboss:jandex:jar:2.0.3.Final:compile
+[INFO] |  |  +- org.dom4j:dom4j:jar:2.1.1:compile
+[INFO] |  |  \- org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final:compile
+[INFO] |  +- dom4j:dom4j:jar:1.6.1:compile
+[INFO] |  +- org.hibernate:hibernate-hikaricp:jar:5.2.18.Final:compile
+[INFO] |  +- org.hibernate:hibernate-entitymanager:jar:5.2.18.Final:compile
+[INFO] |  |  +- org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile
+[INFO] |  |  \- net.bytebuddy:byte-buddy:jar:1.6.14:compile
+[INFO] |  +- org.hibernate:hibernate-validator:jar:5.4.1.Final:compile
+[INFO] |  +- com.zaxxer:HikariCP:jar:3.2.0:compile
+[INFO] |  +- javax.el:javax.el-api:jar:3.0.0:compile
+[INFO] |  +- org.glassfish.web:el-impl:jar:2.2:compile
+[INFO] |  |  \- javax.el:el-api:jar:2.2:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-commons:jar:1.3.0.RELEASE:compile
+[INFO] |  |  \- org.springframework.security:spring-security-crypto:jar:4.2.3.RELEASE:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-context:jar:1.3.0.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-websocket:jar:1.5.18.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter:jar:1.5.18.RELEASE:compile
+[INFO] |  |  |  \- org.yaml:snakeyaml:jar:1.17:runtime
+[INFO] |  |  \- org.springframework:spring-websocket:jar:4.3.21.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-mail:jar:1.5.18.RELEASE:compile
+[INFO] |  |  \- com.sun.mail:javax.mail:jar:1.5.6:compile
+[INFO] |  |     \- javax.activation:activation:jar:1.1:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-web:jar:1.5.18.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-autoconfigure:jar:1.5.18.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot:jar:1.5.18.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-devtools:jar:1.5.18.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-actuator:jar:1.5.18.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-actuator:jar:1.5.18.RELEASE:compile
+[INFO] |  +- org.aspectj:aspectjrt:jar:1.9.1:runtime
+[INFO] |  +- org.aspectj:aspectjweaver:jar:1.9.1:runtime
+[INFO] |  +- javax.validation:validation-api:jar:1.1.0.Final:compile
+[INFO] |  +- org.apereo.cas:cas-server-core-authentication-api:jar:5.3.16:runtime
+[INFO] |  |  +- org.apereo.cas:cas-server-core-api-ticket:jar:5.3.16:runtime
+[INFO] |  |  +- org.apereo.cas:cas-server-core-api-authentication:jar:5.3.16:compile
+[INFO] |  |  |  \- org.apereo.cas:cas-server-core-api-protocol:jar:5.3.16:compile
+[INFO] |  |  +- org.apereo.cas:cas-server-core-api-events:jar:5.3.16:runtime
+[INFO] |  |  |  \- org.apereo.cas:cas-server-core-api-validation:jar:5.3.16:runtime
+[INFO] |  |  +- org.apereo.cas:cas-server-core-authentication-mfa:jar:5.3.16:runtime
+[INFO] |  |  +- org.codehaus.groovy:groovy-jsr223:jar:2.4.15:runtime
+[INFO] |  |  |  \- org.codehaus.groovy:groovy:jar:2.4.15:runtime
+[INFO] |  |  +- org.codehaus.groovy:groovy-console:jar:2.4.15:runtime
+[INFO] |  |  |  +- org.codehaus.groovy:groovy-swing:jar:2.4.15:runtime
+[INFO] |  |  |  \- org.codehaus.groovy:groovy-templates:jar:2.4.15:runtime
+[INFO] |  |  +- org.codehaus.groovy:groovy-groovysh:jar:2.4.15:runtime
+[INFO] |  |  |  \- jline:jline:jar:2.12:runtime
+[INFO] |  |  +- org.codehaus.groovy:groovy-json:jar:2.4.15:runtime
+[INFO] |  |  +- org.codehaus.groovy:groovy-xml:jar:2.4.15:runtime
+[INFO] |  |  +- org.codehaus.groovy:groovy-sql:jar:2.4.15:runtime
+[INFO] |  |  +- org.springframework.security:spring-security-core:jar:4.2.8.RELEASE:runtime
+[INFO] |  |  +- com.github.ben-manes.caffeine:caffeine:jar:3.1.1:runtime
+[INFO] |  |  |  \- org.checkerframework:checker-qual:jar:3.22.0:runtime
+[INFO] |  |  +- com.github.ben-manes.caffeine:guava:jar:2.6.2:runtime
+[INFO] |  |  +- com.timgroup:java-statsd-client:jar:3.1.0:runtime
+[INFO] |  |  +- io.dropwizard.metrics:metrics-annotation:jar:3.2.5:runtime
+[INFO] |  |  +- io.dropwizard.metrics:metrics-core:jar:3.2.5:runtime
+[INFO] |  |  +- io.dropwizard.metrics:metrics-jvm:jar:3.2.5:runtime
+[INFO] |  |  +- io.dropwizard.metrics:metrics-healthchecks:jar:3.2.5:runtime
+[INFO] |  |  +- io.dropwizard.metrics:metrics-servlets:jar:3.2.5:runtime
+[INFO] |  |  |  +- io.dropwizard.metrics:metrics-json:jar:3.2.5:runtime
+[INFO] |  |  |  \- com.papertrail:profiler:jar:1.0.2:runtime
+[INFO] |  |  \- com.ryantenney.metrics:metrics-spring:jar:3.1.3:runtime
+[INFO] |  +- org.apereo.cas:cas-server-core-util-api:jar:5.3.16:runtime
+[INFO] |  |  +- org.bitbucket.b_c:jose4j:jar:0.6.3:compile
+[INFO] |  |  +- org.apereo.cas:cas-server-core-api-util:jar:5.3.16:compile
+[INFO] |  |  +- org.apereo.cas:cas-server-core-api-web:jar:5.3.16:runtime
+[INFO] |  |  +- com.google.zxing:core:jar:3.3.2:runtime
+[INFO] |  |  +- org.bouncycastle:bcpkix-jdk15on:jar:1.60:runtime
+[INFO] |  |  +- org.cryptacular:cryptacular:jar:1.2.4:runtime
+[INFO] |  |  +- org.bouncycastle:bcprov-jdk15on:jar:1.60:runtime
+[INFO] |  |  +- com.vdurmont:semver4j:jar:2.2.0:runtime
+[INFO] |  |  \- com.github.oshi:oshi-core:jar:3.5.0:runtime
+[INFO] |  |     \- org.threeten:threetenbp:jar:1.3.6:runtime
+[INFO] |  +- org.apereo.cas:cas-server-core-web-api:jar:5.3.16:runtime
+[INFO] |  |  +- org.apereo.cas:cas-server-core-api-logout:jar:5.3.16:runtime
+[INFO] |  |  +- org.apereo.cas:cas-server-core-api-webflow:jar:5.3.16:runtime
+[INFO] |  |  +- org.apereo.cas:cas-server-core-services-api:jar:5.3.16:runtime
+[INFO] |  |  +- org.thymeleaf:thymeleaf-spring4:jar:3.0.11.RELEASE:runtime
+[INFO] |  |  |  \- org.thymeleaf:thymeleaf:jar:3.0.11.RELEASE:runtime
+[INFO] |  |  |     +- org.attoparser:attoparser:jar:2.0.5.RELEASE:runtime
+[INFO] |  |  |     \- org.unbescape:unbescape:jar:1.1.6.RELEASE:runtime
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-thymeleaf:jar:1.5.18.RELEASE:runtime
+[INFO] |  |  \- org.apereo.cas:cas-server-security-filter:jar:2.0.10.4:runtime
+[INFO] |  +- org.apereo.cas:cas-server-core-webflow:jar:5.3.16:runtime
+[INFO] |  |  +- org.apereo.cas:cas-server-core-api:jar:5.3.16:runtime
+[INFO] |  |  +- org.apereo.cas:cas-server-core-api-audit:jar:5.3.16:runtime
+[INFO] |  |  +- org.apereo.cas:cas-server-core-webflow-api:jar:5.3.16:runtime
+[INFO] |  |  +- org.apereo.cas:cas-server-support-throttle-core:jar:5.3.16:runtime
+[INFO] |  |  |  \- org.apereo.cas:cas-server-core-api-throttle:jar:5.3.16:runtime
+[INFO] |  |  \- org.apereo.cas:cas-server-core-tickets-api:jar:5.3.16:runtime
+[INFO] |  \- org.apereo.cas:cas-server-core-configuration-api:jar:5.3.16:runtime
+[INFO] |     +- org.apereo.cas:cas-server-core-api-configuration:jar:5.3.16:runtime
+[INFO] |     |  \- org.apereo.cas:cas-server-core-api-configuration-model:jar:5.3.16:runtime
+[INFO] |     |     +- org.springframework.boot:spring-boot-configuration-processor:jar:1.5.18.RELEASE:runtime
+[INFO] |     |     +- org.json:json:jar:20160810:runtime
+[INFO] |     |     +- org.springframework.boot:spring-boot-configuration-metadata:jar:1.5.18.RELEASE:runtime
+[INFO] |     |     \- com.github.javaparser:javaparser-core:jar:3.6.5:runtime
+[INFO] |     +- org.mongodb:mongo-java-driver:jar:3.11.0:runtime
+[INFO] |     \- org.jasypt:jasypt:jar:1.9.2:runtime
+[INFO] +- org.apereo.cas:cas-server-support-ldap:jar:5.3.16:compile
+[INFO] |  +- org.apereo.cas:cas-server-support-ldap-core:jar:5.3.16:runtime
+[INFO] |  |  +- org.ldaptive:ldaptive:jar:1.2.4:runtime
+[INFO] |  |  +- org.ldaptive:ldaptive-beans:jar:1.2.4:runtime
+[INFO] |  |  +- org.ldaptive:ldaptive-unboundid:jar:1.2.4:runtime
+[INFO] |  |  +- com.unboundid:unboundid-ldapsdk:jar:4.0.5:runtime
+[INFO] |  |  \- org.ldaptive:ldaptive-apache:jar:1.2.4:runtime
+[INFO] |  |     \- org.apache.directory.api:api-all:jar:1.0.2:runtime
+[INFO] |  |        +- org.apache.servicemix.bundles:org.apache.servicemix.bundles.xpp3:jar:1.1.4c_7:runtime
+[INFO] |  |        +- org.apache.servicemix.bundles:org.apache.servicemix.bundles.dom4j:jar:1.6.1_5:runtime
+[INFO] |  |        +- org.apache.mina:mina-core:jar:2.0.18:runtime
+[INFO] |  |        \- org.apache.servicemix.bundles:org.apache.servicemix.bundles.antlr:jar:2.7.7_5:runtime
+[INFO] |  +- org.pac4j:pac4j-cas:jar:3.6.1:runtime
+[INFO] |  |  +- org.jasig.cas.client:cas-client-core:jar:3.5.0:runtime
+[INFO] |  |  \- org.jasig.cas.client:cas-client-support-saml:jar:3.5.0:runtime
+[INFO] |  +- org.pac4j:pac4j-config:jar:3.6.1:runtime
+[INFO] |  +- org.pac4j:pac4j-core:jar:3.6.1:runtime
+[INFO] |  +- org.pac4j:pac4j-http:jar:3.6.1:runtime
+[INFO] |  +- org.pac4j:pac4j-jwt:jar:3.6.1:runtime
+[INFO] |  +- org.pac4j:pac4j-oidc:jar:3.6.1:runtime
+[INFO] |  |  \- org.mockito:mockito-core:jar:2.13.0:runtime
+[INFO] |  |     +- net.bytebuddy:byte-buddy-agent:jar:1.7.9:runtime
+[INFO] |  |     \- org.objenesis:objenesis:jar:2.6:runtime
+[INFO] |  +- org.pac4j:pac4j-mongo:jar:3.6.1:runtime
+[INFO] |  +- org.pac4j:pac4j-oauth:jar:3.6.1:runtime
+[INFO] |  |  \- com.github.scribejava:scribejava-apis:jar:5.6.0:runtime
+[INFO] |  |     \- com.github.scribejava:scribejava-core:jar:5.6.0:runtime
+[INFO] |  +- org.pac4j:pac4j-saml:jar:3.6.1:runtime
+[INFO] |  |  +- net.shibboleth.tool:xmlsectool:jar:2.0.0:runtime
+[INFO] |  |  |  +- org.apache.santuario:xmlsec:jar:2.0.5:runtime
+[INFO] |  |  |  |  \- org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:runtime
+[INFO] |  |  |  |     +- javax.xml.stream:stax-api:jar:1.0-2:runtime
+[INFO] |  |  |  |     \- org.codehaus.woodstox:stax2-api:jar:3.1.4:runtime
+[INFO] |  |  |  \- com.beust:jcommander:jar:1.48:runtime
+[INFO] |  |  +- xalan:xalan:jar:2.7.2:runtime
+[INFO] |  |  |  \- xalan:serializer:jar:2.7.2:runtime
+[INFO] |  |  \- javax.annotation:javax.annotation-api:jar:1.2:runtime
+[INFO] |  +- org.pac4j:spring-webmvc-pac4j:jar:3.0.0:runtime
+[INFO] |  +- com.nimbusds:nimbus-jose-jwt:jar:6.0.2:runtime
+[INFO] |  |  \- com.github.stephenc.jcip:jcip-annotations:jar:1.0-1:runtime
+[INFO] |  +- com.nimbusds:oauth2-oidc-sdk:jar:6.5:runtime
+[INFO] |  |  \- com.nimbusds:lang-tag:jar:1.7:runtime (version selected from constraint [1.4.3,))
+[INFO] |  \- net.minidev:json-smart:jar:2.3:runtime
+[INFO] |     \- net.minidev:accessors-smart:jar:1.2:runtime
+[INFO] |        \- org.ow2.asm:asm:jar:5.0.4:runtime
+[INFO] +- org.apereo.cas:cas-server-support-json-service-registry:jar:5.3.16:compile
+[INFO] |  +- org.apereo.cas:cas-server-core-api-services:jar:5.3.16:compile
+[INFO] |  +- org.apereo.cas:cas-server-core-services:jar:5.3.16:runtime
+[INFO] |  |  +- org.apereo.cas:cas-server-core-services-authentication:jar:5.3.16:runtime
+[INFO] |  |  \- org.apereo.cas:cas-server-core-authentication-attributes:jar:5.3.16:runtime
+[INFO] |  \- org.apereo.cas:cas-server-core-services-registry:jar:5.3.16:runtime
+[INFO] +- org.apereo.cas:cas-server-support-rest-authentication:jar:5.3.16:compile
+[INFO] +- org.apereo.cas:cas-server-webapp-tomcat:war:5.3.16:runtime
+[INFO] \- javax.xml.bind:jaxb-api:jar:2.3.1:compile
+[INFO]    \- javax.activation:javax.activation-api:jar:1.2.0:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.881 s
+[INFO] Finished at: 2023-01-17T08:49:27-03:00
+[INFO] ------------------------------------------------------------------------
