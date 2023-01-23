@@ -37,6 +37,8 @@
     </scm>
 
     <properties>
+	    <prodBranch>main</prodBranch>
+	    <versionPrefix></versionPrefix>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <osgi.version>7.0.0</osgi.version>
         <osgi-compendium.version>7.0.0</osgi-compendium.version>
@@ -514,13 +516,13 @@
 		        <verbose>true</verbose>
 
     <gitFlowConfig>
-        <productionBranch>main</productionBranch>
+	    <productionBranch>${prodBranch}</productionBranch>
         <developmentBranch>develop</developmentBranch>
         <featureBranchPrefix>feature/</featureBranchPrefix>
         <releaseBranchPrefix>release/</releaseBranchPrefix>
         <hotfixBranchPrefix>hotfix/</hotfixBranchPrefix>
         <supportBranchPrefix>support/</supportBranchPrefix>
-        <versionTagPrefix></versionTagPrefix>
+	<versionTagPrefix>${versionPrefix}</versionTagPrefix>
         <origin>origin</origin>
     </gitFlowConfig>
             </configuration>
