@@ -678,6 +678,13 @@
                 <module>om-antel</module>
             </modules>
         </profile>
+	<profile>
+		<id>integration</id>
+		<properties>
+	    <prodBranch>integration</prodBranch>
+	    <versionPrefix>intg-</versionPrefix>
+		</properties>
+	</profile>
     </profiles>
 
 </project>
