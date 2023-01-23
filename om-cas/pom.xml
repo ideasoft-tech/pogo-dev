@@ -8,7 +8,7 @@
     <parent>
 	    <groupId>biz.ideasoft.pogo.test</groupId>
 	    <artifactId>pogo-dev</artifactId>
-	    <version>1.0.2</version>
+	    <version>1.0.3</version>
     </parent>
 
 	    <groupId>biz.ideasoft.pogo.test</groupId>
