@@ -5,7 +5,7 @@
 
     <groupId>biz.ideasoft.pogo.test</groupId>
     <artifactId>pogo-dev</artifactId>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
 
     <name>pogo-dev</name>
     <packaging>pom</packaging>
@@ -678,6 +678,13 @@
                 <module>om-antel</module>
             </modules>
         </profile>
+	<profile>
+		<id>integration</id>
+		<properties>
+	    <prodBranch>integration</prodBranch>
+	    <versionPrefix>intg-</versionPrefix>
+		</properties>
+	</profile>
     </profiles>
 
 </project>
