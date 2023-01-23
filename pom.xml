@@ -5,7 +5,7 @@
 
     <groupId>biz.ideasoft.pogo.test</groupId>
     <artifactId>pogo-dev</artifactId>
-    <version>1.0.4-SNAPSHOT</version>
+    <version>1.0.4</version>
 
     <name>pogo-dev</name>
     <packaging>pom</packaging>
